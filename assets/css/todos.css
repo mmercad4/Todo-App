@@ -6,8 +6,11 @@ body {
     
 }
 
-.fa-plus {
-    float: right;
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -37,6 +40,11 @@ li:nth-child(2n){
     background: #f7f7f7;
 }
 
+li:hover span {
+    width: 40px;
+    opacity: 1.0;
+}
+
 span {
     background: #e74c3c;
     height: 40px;
@@ -49,11 +57,6 @@ span {
     opacity: 0;
 }
 
-li:hover span {
-    width: 40px;
-    opacity: 1.0;
-}
-
 input {
     color: #2980b9;
     font-size: 18px;
@@ -63,17 +66,15 @@ input {
     box-sizing: border-box;
     border: 3px solid rgba(0, 0, 0, 0);
 }
+
 input:focus {
     background: white;
     border: 3px solid #2980b9;
     outline: none;
 }
 
-#container {
-    width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+.fa-plus {
+    float: right;
 }
 
 .completed {
